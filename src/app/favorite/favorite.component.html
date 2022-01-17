@@ -1,0 +1,13 @@
+<style>
+    .fa-star {
+    color:blue;
+    background-color: yellow;
+}
+</style>
+
+<span 
+    [class.fas]="isFavorite"
+    [class.far]="!isFavorite"
+    class="fa-star"
+    (click)="onClick()">
+</span>
